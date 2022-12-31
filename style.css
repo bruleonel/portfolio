@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/foguete.jpeg);
+    background-repeat: no-repeat;
+    background-color: #191919;
+}
