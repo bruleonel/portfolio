@@ -3,15 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 .caixa-principal {
     color:chocolate;
     height: 100vh;
     width: 100%;
-    background-image: url(./img/desenho-eu.png);
-    background-position:right;
-    background-repeat: no-repeat;
+    background-image: url(./img/eu5.png);
+    background-position: right;
+    
     background-color:beige
 }
 
@@ -25,19 +26,19 @@ nav {
 }
  
 .portifolio {
-    color: #96e948;
+    color:darkgoldenrod;
     font-size: 40px;
     font-weight: 1000;
 }
 
 .portifolio span {
-    color:rgb(175, 138, 198);
+    color:cadetblue;
 }
 
 
 
 li {
-    color: #fefafa;
+    color:darkgoldenrod;
     list-style: none;
     display: inline-block;
     font-size: 20px;
@@ -46,6 +47,51 @@ li {
 }
 
 li:hover {
-    color: darkmagenta;
+    color:cadetblue;
     transition: 0.5s;
+}
+
+.meu-nome {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color:cadetblue;
+}
+
+.funcao {
+    position:-webkit-sticky;
+    top: 150%;
+    color:chocolate;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+    background-color: rgb(228, 218, 205);
+}
+
+section img {
+    height: 400px;
+    padding: 40px;
+    border-radius: 10%;
+    
+}
+
+section div h2 {
+    color:rgb(206, 102, 17);
+    font-size: 40px;
+    padding: 40px;
+
+}
+
+section div p {
+    color: rgb(145, 100, 3);
+    padding: 10px;
+}
+
+section div button {
+    color:antiquewhite;
+    background: rgb(206, 102, 17);
+    height: 50px;
 }
