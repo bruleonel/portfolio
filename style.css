@@ -2,23 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Signika Negative', sans-serif;
+    font: normal normal normal 14px/19px Roboto;
 }
 
 .caixa-principal {
     color:chocolate;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-image: url(./img/eu5.png);
-    background-position: right;
-    
-    background-color:beige
+    background-position: right;   
+    background-color:rgb(213, 225, 243);
 }
 
 nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
@@ -26,23 +23,34 @@ nav {
 }
  
 .portifolio {
-    color:darkgoldenrod;
-    font-size: 40px;
+    color:rgb(68, 65, 57);
+    font-size: 30px;
     font-weight: 1000;
+    cursor: pointer;
+}
+
+.portifolio:hover{
+    font-size: 50px;
 }
 
 .portifolio span {
     color:cadetblue;
+    font-size: 30px;
+    font-weight: 1000;
+    cursor: pointer;
 }
 
-
+.portifolio span:hover {
+    font-size: 40px;
+}
 
 li {
-    color:darkgoldenrod;
+    color:rgb(73, 69, 59);
+    font-size: 25px;
+    font-weight: 400;
     list-style: none;
     display: inline-block;
-    font-size: 20px;
-    margin: 30px;
+    margin-right: 40px;
     cursor: pointer;
 }
 
@@ -53,45 +61,76 @@ li:hover {
 
 .meu-nome {
     position: absolute;
-    top: 40%;
-    left: 20%;
+    top: 30%;
+    padding-left: 40px;
+}
+
+h1 {
     color:cadetblue;
+    font-size: 50px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+h1:hover {
+    color:rgb(38, 52, 53);
+    font-size: 70px;
 }
 
 .funcao {
     position:-webkit-sticky;
-    top: 150%;
-    color:chocolate;
+    color:rgb(105, 93, 84);
+    font-weight: 700;
+    left: 7%;
+    padding-top: 10%;
 }
 
 section {
     display: flex;
     align-items: center;
-    padding: 60px 0;
-    background-color: rgb(228, 218, 205);
+    padding: 60px 0%;
+    background-color: rgb(236, 249, 255);
+    
 }
 
 section img {
     height: 400px;
     padding: 40px;
     border-radius: 10%;
-    
+    cursor: pointer;
 }
 
+
 section div h2 {
-    color:rgb(206, 102, 17);
-    font-size: 40px;
-    padding: 40px;
+    color:rgb(52, 54, 63);
+    font-size: 25px;
+    font-weight:700;
+    padding: 20px;
 
 }
 
 section div p {
-    color: rgb(145, 100, 3);
-    padding: 10px;
+    color: rgb(116, 95, 50);
+    margin-right: 20%;
+    padding-top: 5px;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
 
 section div button {
-    color:antiquewhite;
-    background: rgb(206, 102, 17);
+    color:rgb(215, 240, 250);
+    background: rgb(84, 108, 128);
     height: 50px;
+    width: 120px;
+    font-size: 17px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+    
+}
+
+section div button:hover {
+    background-color: rgb(161, 168, 173);
+    transition: 0.5s;
+    margin: center;
 }
