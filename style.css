@@ -6,12 +6,11 @@
 }
 
 .caixa-principal {
-    color:chocolate;
     height: 70vh;
     width: 100%;
-    background-image: url(./img/eu5.png);
-    background-position: right;   
-    background-color:rgb(213, 225, 243);
+    background-color:rgb(100, 67, 17);
+    background-image: url(./img/img\ \(2\).png);
+    background-position: right;
 }
 
 nav {
@@ -23,7 +22,7 @@ nav {
 }
  
 .portifolio {
-    color:rgb(68, 65, 57);
+    color:rgb(5, 5, 5);
     font-size: 30px;
     font-weight: 1000;
     cursor: pointer;
@@ -34,20 +33,14 @@ nav {
 }
 
 .portifolio span {
-    color:cadetblue;
+    color:rgb(235, 230, 223);
     font-size: 30px;
     font-weight: 1000;
     cursor: pointer;
 }
 
-.portifolio span:hover {
-    font-size: 40px;
-}
-
 li {
-    color:rgb(73, 69, 59);
-    font-size: 25px;
-    font-weight: 400;
+    color:rgb(0, 0, 0);
     list-style: none;
     display: inline-block;
     margin-right: 40px;
@@ -55,7 +48,7 @@ li {
 }
 
 li:hover {
-    color:cadetblue;
+    color:rgb(235, 230, 223);
     transition: 0.5s;
 }
 
@@ -66,21 +59,17 @@ li:hover {
 }
 
 h1 {
-    color:cadetblue;
+    color:rgb(235, 230, 223);
     font-size: 50px;
     font-weight: 700;
     cursor: pointer;
 }
 
-h1:hover {
-    color:rgb(38, 52, 53);
-    font-size: 70px;
-}
-
 .funcao {
     position:-webkit-sticky;
-    color:rgb(105, 93, 84);
-    font-weight: 700;
+    color:rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 20px;
     left: 7%;
     padding-top: 10%;
 }
@@ -89,37 +78,40 @@ section {
     display: flex;
     align-items: center;
     padding: 60px 0%;
-    background-color: rgb(236, 249, 255);
+    background-color:rgb(216, 194, 162);
+    height: 70vh;
+
     
 }
 
 section img {
     height: 400px;
     padding: 40px;
-    border-radius: 10%;
+    padding-right: 50px;
+    border-radius: 20%;
     cursor: pointer;
 }
 
 
 section div h2 {
-    color:rgb(52, 54, 63);
+    color:rgb(0, 0, 0);
     font-size: 25px;
     font-weight:700;
-    padding: 20px;
+    padding-bottom: 30px;
 
 }
 
 section div p {
-    color: rgb(116, 95, 50);
+    color:rgb(5, 5, 5);
     margin-right: 20%;
-    padding-top: 5px;
-    padding-left: 20px;
-    margin-bottom: 20px;
+    padding-bottom: 15px;
+
+    
 }
 
 section div button {
-    color:rgb(215, 240, 250);
-    background: rgb(84, 108, 128);
+    color:rgb(216, 194, 162);
+    background:rgb(100, 67, 17);
     height: 50px;
     width: 120px;
     font-size: 17px;
@@ -130,7 +122,43 @@ section div button {
 }
 
 section div button:hover {
-    background-color: rgb(161, 168, 173);
+    background-color: rgb(182, 153, 110);
     transition: 0.5s;
     margin: center;
+}
+
+.projetos {
+    background-color:rgb(100, 67, 17);
+}
+
+.projetos h2 {
+    color:rgb(235, 230, 223);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.projetos {
+    height: 80vh;
+}
+
+.card {
+    background-color: rgb(219, 199, 168);
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.card img {
+    height: 100px;
+}
+
+.card h5 {
+    color:rgb(5, 5, 5);
+    font-size: 16px;
+    font-weight: 400px;
+    padding: 10px;
 }
