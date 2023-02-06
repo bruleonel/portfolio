@@ -5,10 +5,10 @@
     font: normal normal normal 14px/19px Roboto;
 }
 
-header {
+/*header {
     display: flex;
     flex-direction: column;
-}
+}*/
 
 .cabecalho {
     
@@ -20,8 +20,8 @@ header {
 
 .itens-navegacao {
     display: flex;
-    margin: 40px;
     justify-content: space-between;
+    padding: 40px;
 }
 
 .portifolio {
@@ -59,13 +59,7 @@ li:hover {
 }
 
 .meu-nome {
-    display: inline;
-}
-.imagem-linguagens {
-    height: 300px;
-    float: right;
-    margin-right: 400px;
-    
+    display: inline-block;
 }
 
 h1 {
@@ -82,6 +76,11 @@ h1 {
     font-weight: 400;
     font-size: 20px;
     padding: 1px 40px;
+}
+.imagem-linguagens {
+    height: 250px;
+    float: right;
+    margin-right: 400px;
 }
 
 section {
@@ -191,6 +190,75 @@ section div button:hover {
 }
 
 /*responsivo*/
-@media(max-width: 768px) {
+@media(max-width: 900px) {
 
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    .itens-navegacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portifolio {
+        margin: 0;
+        padding: 30px;
+    }
+    
+    .meu-nome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imagem-linguagens {
+        height: 200px;
+        margin: 70px 0;
+        margin-right: 50px;   
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        background-color:rgb(239, 205, 158);    
+    }
+    
+    section div h2 {
+        text-align: center; 
+    }
+
+    section div p {
+        margin-right: 0%;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    section div button {
+       margin: 30px 35%;
+        
+    }
+    
+
+    .card {
+        flex-direction: column;
+        width: 300px;
+        height: 500px;
+        background-color: rgb(239, 205, 158);
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+        margin: 40px;
+    }
+    
+    .projetos {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
 }
