@@ -324,16 +324,6 @@ section div button:hover {
     }
 
     .img-contato {
-        height: 80px;
-    }
-
-    .img-contato:hover {
-        height: 100px;
-    }
-
-    button:hover {
-        background-color: rgb(42, 27, 4);
-        transition: 0.5s;
-        margin: center;
+        height: 50px;
     }
 }
