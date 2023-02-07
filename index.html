@@ -15,10 +15,10 @@
         <div class="cabecalho">
             <nav class="itens-navegacao">
                 <h2 class="portifolio">Porti<span>folio</span></h2>
-                <ul>
-                    <li><a>Sobre</a></li>
-                    <li><a>Projetos</a></li>
-                    <li><a>Contato</a></li>
+                <ul class="ul-navegacao">
+                    <li class="lista-navegacao"><a href="#sobre">Sobre</a></li>
+                    <li class="lista-navegacao"><a href="#projetos">Projetos</a></li>
+                    <li class="lista-navegacao"><a href="#contatos">Contato</a></li>
                 </ul>
             </nav>
             
@@ -33,7 +33,7 @@
     <main>
         <section>
             <img src="./img/foto.jpeg" alt="">
-            <div class="sobre">
+            <div class="sobre" id="sobre">
                 <h2>Sobre mim</h2>
                 <p>
                     Desde muito nova aprendi a trabalhar para conquistar meus objetivos e sou muito 
@@ -59,7 +59,7 @@
                 <button>Contato</button>
             </div>
         </section>
-        <div class="projetos">
+        <div class="projetos" id="projetos">
             <h2>Projetos</h2>
     
             <div class="card">
@@ -92,8 +92,42 @@
                 </p>
                 <button>
                     <a href="">Ver Projeto</a>
-                </button>            </div>
+                </button>           
+             </div>
         </div>
+        <section class="contato-section">
+            <div class="contatos" id="contatos">
+                <div class="contato-titulo">
+                    <h2>Contatos</h2>
+                </div>
+
+                <div  class="contatos-listados">
+                    <img src="img/linkedin.png" alt="logo do linkedin marrom" class="img-contato">
+                    <button>Linkedin<a href="https://www.linkedin.com/in/brupsl/"></a>
+                    </button>
+                </div>
+                <div  class="contatos-listados">
+                    <img src="img/whatsapp.png" alt="logo do whatsapp marrom" class="img-contato">
+                    <button>Whatsapp<a href="https://api.whatsapp.com/send/?phone=5541998015368&text&type=phone_number&app_absent=0"></a>
+                    </button>
+                </div>
+                <div  class="contatos-listados">
+                    <img src="img/github.png" alt="logo do github marrom" class="img-contato">
+                    <button>GitHub<a href="https://github.com/bruleonel"></a>
+                    </button>
+                </div>
+                <div  class="contatos-listados">
+                    <img src="img/instagram.png" alt="logo do instagram marrom" class="img-contato">
+                    <button>Instagram<a href="https://www.instagram.com/bruleonel/"></a>
+                    </button>
+                </div>                
+            </div>
+        </section>
+     
+
+        <footer>
+
+        </footer>
     </main>
 </body>
 </html>
