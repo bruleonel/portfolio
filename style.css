@@ -3,6 +3,9 @@
    
 }
 
+head {
+    display: block;
+}
 .cabecalho {
     height: 70vh;
     background-color:rgb(56, 34, 1);
