@@ -37,6 +37,24 @@
 }
 
 h1 {
-    color: var(--color-hilite);
+    color: var(--color-yellow700);
     font-size: 3rem;
+    font-weight: bold;
+}
+
+ul {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0%;
+    margin: 0;
+}
+
+a {
+    color: var(--color-green800)
+}
+
+h2 {
+    color: var(--color-green800);
+    font-size: 2rem;
+    font-weight: bold;
 }
