@@ -1,4 +1,4 @@
-.cabecalho {
+.cabecalho, .sobre {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,4 +22,13 @@
 .conteudo__imagem {
     width: 100vw;
     max-width: 600px;
+}
+
+.sobre {
+    border-bottom:none;
+    padding: 1rem;
+}
+
+.sobre__imagem {
+    width: 100%;
 }
