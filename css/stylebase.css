@@ -3,26 +3,26 @@
     --color-black: hsla(0, 0%, 0%, 1);
     --color-lightgrey: hsla(0, 0%, 97%, 1);
     --color-dark: hsla(0, 0%, 9%, 1);
-    --color-white-flash: hsla(0, 0%, 100%, .5);
-    --color-beige: rgba(250, 229, 226, 0.507);
+    -color-white-flash: hsla(0, 0%, 100%, 1);
+    --color-beige: rgba(250, 229, 226, 1);
     --color-green300: hsla(159, 42%, 88%, 1);
-    --color-green400: hsla(160, 52%, 71%, 1);
-    --color-green500: hsla(172, 95%, 18%, 1);
+    --color-fundo-card: rgb(160, 212, 212);
+    --color-text-buttom: hsla(172, 95%, 18%, 1);
     --color-yellow500: hsla(36, 97%, 70%, 1);
     --color-yellow600: hsla(36, 74%, 25%, 1);
-    --color-yellow700: hsla(36, 91%, 13%, 1);
+    --color-secundaria: rgb(92, 91, 94);
 }
 
 * {
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--color-beige);
+    /*background-color: var(--color-beige);*/
     list-style: none;
     text-decoration: none;
     margin: 0;
 }
 
 h1 {
-    color: var(--color-yellow700);
+    color: var(--color-text-buttom);
     font-size: 3rem;
     font-weight: bold;
 }
@@ -35,11 +35,15 @@ ul {
 }
 
 a {
-    color: var(--color-yellow600)
+    color: var(--color-text-buttom)
 }
 
-h2 {
-    color: var(--color-yellow700);
+h2, h3 {
+    color: var(--color-secundaria);
     font-size: 2rem;
     font-weight: bold;
+}
+
+h3 {
+    font-size: 1.3rem;
 }
