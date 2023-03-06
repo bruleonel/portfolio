@@ -4,37 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,500;1,200&family=Roboto:wght@100;300;400&family=Signika+Negative:wght@400;500;600&display=swap" rel="stylesheet">
-    <title>Bruna Leonel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght
+        @300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./projeto/css/style.css">
+    <link rel="stylesheet" href="./projeto/css/stylebase.css">
 </head>
 <body>
-    <header>
-        <div class="cabecalho">
-            <nav class="itens-navegacao">
-                <h2 class="portifolio">Porti<span>folio</span></h2>
-                <ul class="ul-navegacao">
-                    <li class="lista-navegacao"><a href="#sobre">Sobre</a></li>
-                    <li class="lista-navegacao"><a href="#projetos">Projetos</a></li>
-                    <li class="lista-navegacao"><a href="#contatos">Contato</a></li>
-                </ul>
-            </nav>
-            
-            <div class="meu-nome">
-                <h1>Bruna Leonel</h1>
-                <h3 class="funcao">Programadora Full Stack</h3>
-            </div>
-            <img class="imagem-linguagens" src="img/linguagens.png" alt="Desenho de uma moça em frente ao computador em volta das logos das linguagens">
-        </div>    
+    <header class="cabecalho">
+        <h2 class="cabecalho__titulo">Port<span>folio</span></h2>
+        <nav class="cabecalho__navegacao">
+            <ul>
+                <li class="cabecalho__link"><a href="#sobre">About</a></li>
+                <li class="cabecalho__link"><a href="#projetos">Projects</a></li>
+                <li class="cabecalho__link"><a href="#contatos">Contacts</a></li>
+            </ul>
+        </nav>
     </header>
-
     <main>
-        <section>
-            <img src="./img/foto.jpeg" alt="">
-            <div class="sobre" id="sobre">
-                <h2>Sobre mim</h2>
+        <section class="conteudo">
+            <div class="container">
+                <h1 class="container__principlal">
+                    <span class="container__titulo">
+                        <span class="titulo__container-apresentacao">Hi. I'm Bruna Leonel. </span>
+                        <span class="titulo__container-apresentacao">A Full Stack Developer. </span>
+                    </span>
+                </h1>
+            </div>
+            <div>
+                <img src="./projeto/img/linguagens.png" alt="Desenho de uma mulher com um nootbook
+                com as logos JavaScript, HTML, Css, C# e Git em volta" class="conteudo__imagem">
+            </div>
+        </section>
+        <section class="sobre">
+            <img src="./projeto/img/foto.jpeg" alt="Foto de mulher parda cabelo ondulado castanho com blusa bordô" class="sobre__imagem">
+            <div class="sobre__texto">
+                <h2 class="sobre__titulo">Sobre mim</h2>
                 <p>
                     Desde muito nova aprendi a trabalhar para conquistar meus objetivos e sou muito 
                     grata pois isso me deu a oportunidade de ter conhecimento em várias áreas tanto 
@@ -56,81 +63,112 @@
                     vontade de aprender, foco e determinação eu tenho!
                 </p>
     
-                <button>Contato</button>
+                <button class="sobre__botao">Contato</button>
             </div>
         </section>
-        <div class="projetos" id="projetos">
-            <h2>Projetos</h2>
-    
-            <div class="card">
-                <img src="./img/gerenciador-img.png" alt="">
-                <h5>Gerenciador de Tarefas</h5>
-                <p>
-                    Programa criado para o gerenciamento de tarefas com as seguintes funcionalidades: adicionar tarefas, 
-                    pesquisar tarefas e filtrar tarefas.
-                </p>
-                <button>
-                    <a href="https://bruleonel.github.io/gerenciador-de-tarefas/">Ver Projeto</a>
-                </button>
-            </div>
+        <section >
+            <div class="projetos" id="projetos">
 
-            <div class="card">
-                <img src="./img/barbearia-img.png" alt="">
-                <h5>Barbearia Alura</h5>
-                <p>
-                    Site criado no curso Alura, projeto em HTML e CSS.
-                </p>
-                <button>
-                    <a href="https://bruleonel.github.io/barbearia-alura/">Ver Projeto</a>
-                </button>            </div>
-
-            <div class="card">
-                <img src="./img/vendas-img.png" alt="">
-                <h5>API de Vendas</h5>
-                <p>
-                    Em construção...
-                </p>
-                <button>
-                    <a href="">Ver Projeto</a>
-                </button>           
-             </div>
-        </div>
-        <section class="contato-section">
-            <div class="contatos" id="contatos">
-                <div class="contato-titulo">
-                    <h2>Contatos</h2>
+                <div><h2>Projetos</h2></div>
+        
+                <div class="projetos__card">
+                    <div class="card">
+                        <img src="./projeto/img/gerenciador-img.png" alt="">
+                        <h3>Gerenciador de Tarefas</h3>
+                        <p>
+                            Programa criado para o gerenciamento de tarefas com as seguintes funcionalidades: adicionar tarefas, 
+                            pesquisar tarefas e filtrar tarefas.
+                        </p>
+                        <button>
+                            <a href="https://bruleonel.github.io/gerenciador-de-tarefas/">Ver Projeto</a>
+                        </button>
+                    </div>
+        
+                    <div class="card">
+                        <img src="./projeto/img/barbearia-img.png" alt="">
+                        <h3>Barbearia Alura</h3>
+                        <p>
+                            Site criado no curso Alura, projeto em HTML e CSS. <br><br><br><br>
+                        </p>
+                        <button>
+                            <a href="https://bruleonel.github.io/barbearia-alura/">Ver Projeto</a>
+                        </button>            
+                    </div>
+        
+                    <div class="card">
+                        <img src="./projeto/img/jogo-img.png" alt="">
+                        <h3>Jogo</h3>
+                        <p>
+                            Em construção...
+                        </p>
+                        <button>
+                            <a href="">Ver Projeto</a>
+                        </button>           
+                     </div>
+                     <div class="card">
+                        <img src="./projeto/img/vendas-img.png" alt="">
+                        <h3>API de Vendas</h3>
+                        <p>
+                            Em construçã<o class="b"></o>
+                        </p>
+                        <button>
+                            <a href="">Ver Projeto</a>
+                        </button>           
+                     </div>
+                     <div class="card">
+                        <img src="./projeto/img/vendas-img.png" alt="">
+                        <h3>API de Vendas</h3>
+                        <p>
+                            Em construção...
+                        </p>
+                        <button>
+                            <a href="">Ver Projeto</a>
+                        </button>           
+                     </div>
+                     <div class="card">
+                        <img src="./projeto/img/vendas-img.png" alt="">
+                        <h3>API de Vendas</h3>
+                        <p>
+                            Em construção...
+                        </p>
+                        <button>
+                            <a href="">Ver Projeto</a>
+                        </button>           
+                     </div>
                 </div>
-
-                <div  class="contatos-listados">
-                    <img src="img/linkedin.png" alt="logo do linkedin marrom" class="img-contato">
+                </div>
+        </section>
+        <footer>
+            <div class="contatos" id="contatos">
+                <div><h2 class="contatos__titulo">Contatos</h2></div>
+                <div class="contatos__card">
+                    <div  class="contatos-listados">
+                    <img src="./projeto/img/logo-linkedin.png" alt="logo do linkedin marrom" class="img-contato">
                     <button>
                         <a href="https://www.linkedin.com/in/brupsl/">Linkedin</a>
                     </button>
                 </div>
                 <div  class="contatos-listados">
-                    <img src="img/whatsapp.png" alt="logo do whatsapp marrom" class="img-contato">
+                    <img src="./projeto/img/logo-whatsapp.png" alt="logo do whatsapp marrom" class="img-contato">
                     <button>
                         <a href="https://api.whatsapp.com/send/?phone=5541998015368&text&type=phone_number&app_absent=0">Whatsapp</a>
                     </button>
                 </div>
                 <div  class="contatos-listados">
-                    <img src="img/github.png" alt="logo do github marrom" class="img-contato">
+                    <img src="./projeto/img/logo-github.png" alt="logo do github marrom" class="img-contato">
                     <button>
                         <a href="https://github.com/bruleonel">GitHub</a>
                     </button>
                 </div>
                 <div  class="contatos-listados">
-                    <img src="img/instagram.png" alt="logo do instagram marrom" class="img-contato">
+                    <img src="./projeto/img/logo-instagram.png" alt="logo do instagram marrom" class="img-contato">
                     <button>
+                        
                         <a href="https://www.instagram.com/bruleonel/">Instagram</a>
                     </button>
-                </div>                
+                </div>
             </div>
-        </section>
-     
-
-        <footer>
-
+            </div>
         </footer>
     </main>
 </body>

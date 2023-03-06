@@ -2,6 +2,7 @@
 
     --cor-bege: #ffe5d2;
     --cor-bege2: #f6be99;
+    --cor-bege3: #efe4e1;
     --cor-marrom-claro: #814831;
     --cor-marrom: #57271b;
     --cor-ceramica400: #b85322;
@@ -14,6 +15,7 @@
     text-decoration: none;
     margin: 0;
 }
+
 
 body {
     background-color: var(--cor-bege);
@@ -58,11 +60,15 @@ footer {
 background-color: var(--cor-bege2);
 }
 
-/*@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     * {
         padding-left: calc((100% - 940px)/2);
         padding-right: calc((100% - 940px)/2);
     }
+
+    body {
+        background-color: var(--cor-bege3);
+    }
 }
-*/
+
 
