@@ -45,7 +45,6 @@
 
 .sobre__texto {
     text-align: center;
-    padding: ;
 }
 
 .sobre__titulo {
@@ -208,6 +207,10 @@
         padding: 2rem;
     }
 
+    .sobre h2 {
+        color: var(--cor-bege2);
+    }
+
     .sobre__imagem {
         width: 100%;
         border-radius: 20px;
@@ -221,12 +224,22 @@
         color: var(--cor-bege3);
     }
 
-    h2 {
-        color: var(--cor-bege2);
+    .sobre__botao {
+        background-color: var(--cor-bege2);
+        color: #57271b;
     }
+
+    .sobre__botao:hover {
+        background-color: var(--cor-ceramica200);
+    }
+
     .projetos {
         background-image: linear-gradient( #b85322, #efe4e1);
         margin: 0;
+    }
+
+    .projetos h2 {
+        color: var(--cor-bege2);
     }
 
     .projetos__card {
