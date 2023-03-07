@@ -156,11 +156,10 @@
 }
 
 .contatos-listados {
-    all: unset;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    padding: 0.4rem;
     align-items: center;
-    padding: 0.5rem;
     background-color: var(--cor-bege);
     margin: 0.2rem;
     border-radius: 10px;
@@ -168,8 +167,7 @@
 
 .contatos-listados:hover{
     transition: 0.5s;
-    width: 100px;
-    height: 70px;
+    width: 90px;
 }
 
 .contatos-listados button {
