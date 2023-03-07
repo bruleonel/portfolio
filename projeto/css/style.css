@@ -126,10 +126,10 @@
     border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .card button:hover{
-    transition: 0.1s;
     background: var(--cor-marrom);
     height: 60px;
     font-size: 18px;
@@ -163,10 +163,10 @@
     background-color: var(--cor-bege);
     margin: 0.2rem;
     border-radius: 10px;
+    transition: 0.5s;
 }
 
 .contatos-listados:hover{
-    transition: 0.5s;
     width: 90px;
 }
 
